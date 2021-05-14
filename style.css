@@ -1,0 +1,215 @@
+*{
+font-family: 'Open Sans', sans-serif;
+}
+body {
+margin: 0;
+padding: 0;
+}
+.header {
+padding: 30px;
+text-align: left;
+margin: 0px auto 45px auto;
+background: linear-gradient(120deg,rgb(129, 129, 129),black);
+color: white;
+font-size: 20px;
+}
+.header a {
+color: #f2f2f2;
+text-align: center;
+padding: 17px 30px 0px 30px;
+text-decoration: none;
+font-size: 20px;
+height: 50px;
+}
+.header a:hover{
+    opacity: 0.8;
+}
+
+.left-content{
+background: linear-gradient(120deg,white,black);
+text-align: center;
+margin-top: 82px;
+left: 0;
+height: 100%;
+width: 25%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+.center-content{
+background: linear-gradient(120deg,rgb(129, 129, 129),black);
+text-align: center;
+margin-top: 82px;
+left: 0;
+height: 100%;
+width: 100%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+.right-content{
+background: linear-gradient(30deg,rgb(0, 0, 0),white);
+text-align: center;
+margin-top: 82px;
+right: 0;
+height: 100%;
+width: 75%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+.select {
+background-color: #DADADA;
+color: black;
+padding: 7px 25px;
+margin: 8px 8px;
+border-radius: 5px;
+border-color: #606060;
+cursor: pointer;
+width: 300px;
+}
+.input{
+background-color: #DADADA;
+color: black;
+padding: 7px 10px;
+margin: 3px 3px;
+border-radius: 5px;
+border-color: #606060;
+cursor: text;
+width: 400px;
+}
+.search_input{
+background-color: #DADADA;
+color: black;
+right: 300px;
+float: right;
+padding: 7px 10px;
+margin: 3px 3px;
+border-radius: 5px;
+border-color: #606060;
+cursor: text;
+width: 400px;
+}
+.submit_button {
+background-color: #009879;
+color: black;
+padding: 7px 25px;
+margin: 8px 8px;
+border-radius: 3px;
+border-color: #606060;
+cursor: pointer;
+width: 85px;
+font-family: 'Open Sans', sans-serif
+}
+.submit_button:hover {
+opacity: 0.8;
+}
+
+.delete_button {
+background-color: #850000;
+color: rgb(255, 255, 255);
+padding: 7px 25px;
+margin: 8px 8px;
+border-radius: 3px;
+border-color: #606060;
+cursor: pointer;
+width: 85px;
+font-family: 'Open Sans', sans-serif
+}
+.delete_button:hover {
+opacity: 0.8;
+}
+.search_button {
+background-color: #009879;
+color: black;
+padding: 7px 25px;
+margin: 8px 8px;
+right: 10px;
+float: right;
+border-radius: 3px;
+border-color: #606060;
+cursor: pointer;
+width: 85px;
+font-family: 'Open Sans', sans-serif
+}
+.search_button:hover {
+opacity: 0.8;
+}
+.box_button {
+background-color: #009879;
+color: black;
+padding: 7px 25px;
+margin: 12px 12px;
+border-radius: 3px;
+text-align: left;
+border-color: #606060;
+cursor: pointer;
+width: 100px;
+font-family: 'Open Sans', sans-serif
+}
+.box_button:hover {
+opacity: 0.8;
+}
+.boxselected{
+background-color: #009879;
+color: black;
+padding: 7px 25px;
+margin: 12px 12px;
+border-radius: 3px;
+text-align: left;
+border-color: #606060;
+cursor: pointer;
+width: 100px;
+font-family: 'Open Sans', sans-serif
+}
+.boxselected:hover{
+opacity: 0.8;
+}
+.styled-table {
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.9em;
+margin-left:auto;
+margin-right:auto;
+font-family: sans-serif;
+min-width: 400px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+background-color: #009879;
+color: #ffffff;
+text-align: left;
+}
+.styled-table th,
+.styled-table td {
+padding: 12px 15px;
+}
+.styled-table tbody tr {
+border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+font-weight: bold;
+color: #009879;
+}
+
+.edit_button{
+width:30px;
+height:30px;
+}
+.edit_button:hover{
+opacity: 0.8;
+}
